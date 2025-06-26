@@ -1,12 +1,28 @@
-# React + Vite
+# ☄️ Cosmic Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A futuristic weather app with animated space-themed visuals and real-time weather updates using the OpenWeather API.
 
-Currently, two official plugins are available:
+> Designed for both visual appeal and functionality — perfect for portfolios, resume links, and beginner-friendly showcases.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+### 🌌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🚀 **Live Weather Updates** using OpenWeather API
+- 🌦️ **Dynamic Backgrounds**: Galaxy, Nebula, and Stars change based on weather (e.g., clear, clouds, rain)
+- 🧊 **Glassmorphism Weather Card** with blur + glow effects
+- 💫 **Framer Motion Animations** for smooth transitions and interactions
+- 🎨 **Fully Responsive** layout (centered and adaptive)
+- 🌙 **Dark Mode Inspired** color scheme with a cosmic vibe
+- ⚡ **React Icons** for animated weather visuals
+
+🔧 Tech Stack
+
+- **React.js**
+- **CSS (custom design + blur)**
+- **Framer Motion**
+- **React Icons**
+- **OpenWeatherMap API**
+
+---
+
