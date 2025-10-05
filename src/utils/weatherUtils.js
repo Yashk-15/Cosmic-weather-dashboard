@@ -1,4 +1,4 @@
-const API_KEY = "5c7077c8fabef826a9b988d3e0b781b0"; // Replace this with your real API key
+const API_KEY = "https://i3gheij89d.execute-api.ap-south-1.amazonaws.com/prod"; // Replace this with your real API key
 
 export async function fetchWeather(city) {
   const res = await fetch(
