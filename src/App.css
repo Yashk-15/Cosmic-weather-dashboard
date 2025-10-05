@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical centering */
+  align-items: center;       /* horizontal centering */
+  width: 100vw;
+  position: relative;
+  z-index: 1;
+}
+
+.background {
+  position: fixed;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  transition: background 1s ease-in-out;
+}
+
+.cloudy {
+  background-image: url("/cloudy.jpg");
+}
+
+.rain {
+  background-image: url("/rain.jpg");
+}
+
+.clear-sky {
+  background-image: url("/clear sky.jpg");
+}
+
+
+.weather-icon-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.content {
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+input {
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+.card {
+  margin: 2rem auto 0 auto;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  padding: 25px;
+  margin-top: 1.5rem;
+  border-radius: 16px;
+  max-width: 300px;
+  color: white;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.temp {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.humidity {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+}
+
+.desc {
+  text-transform: capitalize;
+}
+
+.temp {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.humidity {
+  font-size: 1rem;
+}
+
